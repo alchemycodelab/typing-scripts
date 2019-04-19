@@ -1,3 +1,5 @@
+const test = Qunit.test;
+
 function area(sideOne, sideTwo) {
     return sideOne * sideTwo
 }
