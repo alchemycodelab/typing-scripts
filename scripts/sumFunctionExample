@@ -3,7 +3,7 @@ const test = Qunit.test;
 function sum(numOne, numTwo) {
     return numOne + numTwo
 }
-test('It returns the opposite of a number', function(assert) {
+test('It returns the sum of two numbers', function(assert) {
 
     //Arrange
     const numberOne = 45;
