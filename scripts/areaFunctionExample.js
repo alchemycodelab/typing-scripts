@@ -1,8 +1,9 @@
 const test = Qunit.test;
 
-function area(sideOne, sideTwo) {
+function calculateArea(sideOne, sideTwo) {
     return sideOne * sideTwo
 }
+
 test('It finds the area of a square', function(assert) {
 
     //Arrange
@@ -11,7 +12,7 @@ test('It finds the area of a square', function(assert) {
     const expectedResult = 48;
 
     //Act
-    const result = area(sideOne, sideTwo);
+    const result = calculateArea(sideOne, sideTwo);
     
     //Assert
     assert.equal(result, expectedResult)
