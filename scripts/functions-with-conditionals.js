@@ -1,6 +1,6 @@
 //Checks if a number is greater than 10
 function isGreaterThanTen(number) {
-    if(number >= 10) {
+    if(number > 10) {
         return number + ' is greater than ten';
     }
 }
