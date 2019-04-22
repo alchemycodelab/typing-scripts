@@ -1,7 +1,4 @@
-// EXAMPLE 1
-// File one: exporting a function
-    // file name someOtherFile.js
-    
+// file: add-two-numbers.js
 function addTwoNumbers(numOne, numTwo) {
     return numOne + numTwo;
 }
@@ -9,22 +6,27 @@ function addTwoNumbers(numOne, numTwo) {
 export default addTwoNumbers;
 
 
-// File two: importing a function 
-import addTwoNumbers from './someOtherFile.js';
+// file: calculator.js
+import addTwoNumbers from './add-two-numbers.js';
 
-addTwoNumbers(10, 40);
+const sum = addTwoNumbers(10, 40);
+console.log('sum is', sum);
 
 
-//EXAMPLE 2
-// File one: exporting a function
-    // file name squareFunction.js
-    
-export default function squareANumber(number) {
+// file square-number.js
+function squareNumber(number) {
     return Math.pow(number, 2);
 };
 
+export default squareNumber
 
-// File two: importing a function
-import squareANumber  from './squareFunction.js'
 
-squareANumber(5);
+// file: calculator.js
+import addTwoNumbers from './add-two-numbers.js';
+import squareNumber  from './square-number.js'
+
+const sum = addTwoNumbers(10, 40);
+console.log('sum is', sum);
+
+const square = squareNumber(5);
+console.log('square is', square);
