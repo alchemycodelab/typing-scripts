@@ -4,6 +4,7 @@ function isGreaterThanTen(number) {
         return number + ' is greater than ten';
     }
 }
+
 isGreaterThanTen(12);
 
 
@@ -15,6 +16,7 @@ function positiveOrNegative(number) {
         return 'The number is negative';
     }
 }
+
 positiveOrNegative(5);
 positiveOrNegative(-18);
   
@@ -31,10 +33,10 @@ function numberTest(number) {
         return 'The number is negative';
     }
 }
+
 numberTest(12);
 numberTest(0);
 numberTest(-2);
-
 
 // Checks a number in different ranges
 function testSize(num) {
@@ -57,6 +59,7 @@ function testSize(num) {
         return 'Parameter is not a number';
     }
 }
+
 testSize(3);
 testSize(7);
 testSize(11);
