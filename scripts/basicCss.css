@@ -1,36 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat|Quicksand');
+
 body {
     background-color: rgb(250, 100, 0);
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
+
 h1 {
-    font-family: 'Quicksand', sans-serif;
     margin-top: 1em;
+    font-family: 'Quicksand', sans-serif;
     font-size: 4em;
     font-weight: 900;
 }
+
 h2 {
     font-family: 'Indie Flower', cursive;
     font-size: 3em;
 }
+
+
 #name {
     display: block;
     margin: 1em;
 }
+
 #who{
     font-size: 2em;
 }
+
 #intro {
     font-size: 3em;
 }
+
 .facts {
     font-size: 2em;
     color: blue;
     margin: 2em;    
 }
+
 ul {
     font-size: 1.5em;
     list-style: none;
 }
+
 p {
     font-size: 2em;
 }
