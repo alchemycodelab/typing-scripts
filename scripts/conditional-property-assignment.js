@@ -1,4 +1,3 @@
-
 const headsRadioButton = document.getElementById('heads-button');
 const coinImage = document.getElementById('coin-image');
 

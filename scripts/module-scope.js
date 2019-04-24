@@ -1,4 +1,3 @@
-
 const timesClicked = document.getElementById('clicks');
 const button = document.getElementById('button');
 
