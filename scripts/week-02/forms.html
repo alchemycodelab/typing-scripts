@@ -1,0 +1,74 @@
+<form id="cat-form">
+        <p>
+            <label for="name">Name of cat:</label>
+            <input type="text" name="name" id="name" required>
+        </p>
+        
+        <p>
+            <label for="type">Type of cat?</label>
+            <select id="type" name="type" required>
+                <option value="" hidden disabled selected>Select a type</option>
+                <option value="tuxedo">Tuxedo</option>
+                <option value="tabby">Tabby</option>
+                <option value="calico">Calico</option>
+                <option value="piebald">Piebald</option>
+                <option value="solid">Solid</option>
+            </select>
+        </p>
+
+        <fieldset>
+                <legend>
+                    Age
+                </legend>
+    
+                <label>
+                    <input name="age" required value="kitten" type="radio">
+                    Less than one year
+                </label>
+    
+                <label>
+                    <input name="age" required value="adult" type="radio">
+                    Between one and seven years
+                </label>
+    
+                <label>
+                    <input name="age" required value="senior" type="radio">
+                    Over seven years
+                </label>
+            </fieldset>
+
+        <fieldset>
+            <legend>
+                What toys does your cat play with?
+            </legend>
+
+            <p>
+                <input name="toys" value="feather-chaser" type="checkbox" id="feather-chaser">
+                <label for="feather-chaser">Feather Chaser</label>
+            </p>
+
+            <p>
+                <input name="toys" value="laser-pointer" type="checkbox" id="laser-pointer">
+                <label for="laser-pointer">Laser Pointer</label>
+            </p>
+
+            <p>
+                <input name="toys" value="yarn-ball" type="checkbox" id="yarn-ball">
+                <label for="yarn-ball">Ball of Yarn</label>
+            </p>
+
+            <p>
+                <input name="toys" value="couch" type="checkbox" id="couch">
+                <label for="couch">Couch</label>
+            </p>
+        </fieldset>
+    
+        <p>
+            <label for="rating">How awesome is your cat?</label>
+            <input type="range" name="rating" id="rating" min="1" max="10" required>
+        </p>
+
+        <p>
+            <button>Submit</button>
+        </p>
+</form>
